@@ -1,0 +1,6 @@
+1.install Astro - "winget install -e --id Astronomer.Astro"
+2.Initialize astro project - "astro dev init"
+3.Create a dag "etlWeather.py" with three tasks to extract data from 'open_meteo_api', transform the data to get only the required info from the extracted json and load the data to postgres db.
+4.create a docker-compose file
+5.to run locally use "astro dev start"
+6.Configure the connection for postgres and http for data extract from meteo api in airflow, once the docker build is complete.
